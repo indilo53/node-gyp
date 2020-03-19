@@ -67,7 +67,7 @@
             ],
             'msvs_settings': {
               'VCLinkerTool': {
-                'DelayLoadDLLs': [ 'iojs.exe', 'node.exe', 'node.dll' ],
+                'DelayLoadDLLs': [ 'iojs.exe', 'node.exe', 'libnode.dll' ],
                 # Don't print a linker warning when no imports from either .exe
                 # are used.
                 'AdditionalOptions': [ '/ignore:4199' ],
